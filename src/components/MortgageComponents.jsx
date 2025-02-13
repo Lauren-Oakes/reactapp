@@ -34,10 +34,10 @@ export function MortgageForm() {
 
     return (
         <form onSubmit={handleSubmit}className="flex flex-col gap-6 rounded-l-xd">
-            <InputGroup type='text' label='Mortgage Amount' placeholder='Amount in GBP' name='Amount' />
+            <InputGroup type='number' label='Mortgage Amount' placeholder='Amount in GBP' name='Amount' />
             <div className="grid grid-cols-2 gap-4">
                 <InputGroup type='number' label='Mortgage Term' placeholder='1 year' name='Amount' />
-                <InputGroup type='text' label='Interest Rate' placeholder='5%' name='Amount' />        
+                <InputGroup type='number' label='Interest Rate' placeholder='5%' name='Amount' />        
             </div>
 
             <button className="bg-[#dada33] px-3 py-2 rounded-full font-semibold">Calculate</button>

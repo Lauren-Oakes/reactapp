@@ -6,6 +6,7 @@ import Products from './pages/Products'
 import GithubSearch from './pages/GithubSearch'
 import Layout from './components/Layout'
 import Mortgage from './pages/Mortgage'
+import Tip from './pages/Tip'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Route path='/counter' element={<Counter />} />
       <Route path='/products' element={<Products />} />
       <Route path='/mortgage' element={<Mortgage />} />
+      <Route path='/tip' element={<Tip />} />
       </Route>
     </Routes>
   )
